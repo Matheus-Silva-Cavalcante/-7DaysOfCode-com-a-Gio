@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@import url(style/navbar.css);
+@import url(style/header.css);
+@import url(style/metricas.css);
+@import url(style/vagas.css);
+@import url(style/depoimentos.css);
+@import url(style/footer.css);
+
+:root{
+    --color-red-principal: #8e2424;
+    --color-cinza-principal: #667085;
+    --color-azul-principal: #101828;
+    --background-vermelho: rgba(142, 36, 36, 0.05);
+    --botao-hover-branco: #e9e8e8;
+    --botao-hover-vermelho: #9b3030;
+    --botao-branco: #ffffff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ffffff;
+    height: 100%;
+    font-family: "Inter", sans-serif;
+}
+
+

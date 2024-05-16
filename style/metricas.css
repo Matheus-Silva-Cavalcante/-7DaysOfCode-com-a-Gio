@@ -1,0 +1,29 @@
+.metricas{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin: 5em auto auto auto;
+}
+
+.metricas-conteudo{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1em;
+    min-width: 12em;
+}
+
+.metricas-conteudo>h4{
+    font-size: 18px;
+    color: var(--color-azul-principal);
+}
+
+.metricas-titulo__principal{
+    color: var(--color-red-principal);
+    font-size: 60px;
+}
+
+.metricas-textos{
+    color: var(--color-cinza-principal);
+    font-size: 16px;
+}

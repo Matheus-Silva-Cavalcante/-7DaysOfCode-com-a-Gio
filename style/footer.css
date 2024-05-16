@@ -1,0 +1,41 @@
+footer{
+    background: #F9FAFB;
+    margin-top: 5em;
+    padding: 5em 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.footer-titulo{
+    color: var(--color-azul-principal);
+    font-size: 36px;
+}
+
+.footer-texto{
+    color: var(--color-cinza-principal);
+    font-size: 20px;
+}
+
+.footer-cadastro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    max-width: 500px;
+}
+
+.footer-pesquisa{
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    width: 300px;
+    padding: 1em;
+}
+
+.footer-direitos{
+    font-size: 16px;
+    color: #98a2b3;
+}
+

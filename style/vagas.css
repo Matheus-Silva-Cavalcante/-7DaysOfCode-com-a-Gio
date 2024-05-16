@@ -1,0 +1,93 @@
+.vagas{
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.talentos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+}
+
+.talentos-container{
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+}
+
+.vagas-alert{
+    background: var(--background-vermelho);
+    color: var(--color-red-principal);
+    padding: 10px;
+    margin: auto;
+    border-radius: 16px;
+    font-size: 14px;
+}
+
+.talentos-container>h4{
+    font-size: 36px;
+    color: var(--color-azul-principal);
+}
+
+.talentos-container__texto{
+    font-size: 20px;
+    color: var(--color-cinza-principal);
+}
+
+.vagas-img{
+    margin-top: 2em;
+}
+
+.vagas-img>img{
+    max-width: 100%;
+}
+
+.vagas-abertas{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 64px;
+    padding: 1em;
+    box-sizing: border-box;
+    max-width: 800px;
+    margin: auto;
+    width: 100%;
+}
+
+.vagas-listas{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.vagas-listas__titulo{
+    margin: 1.5em 0 0.5em 0;
+    font-size: 20px;
+    color: var(--color-azul-principal);
+}
+
+.vagas-disponiveis{
+    border: 1px solid #EAECF0;
+    padding: 2em;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.vagas-disponiveis>span{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--color-azul-principal);
+}
+
+.vagas-salario{
+    display: flex;
+    gap: 30px;
+    color: var(--color-cinza-principal);
+    font-size: 16px;
+}
